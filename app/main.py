@@ -9,7 +9,7 @@ app = FastAPI(title="Voice Command Recognition API")
 # e.g. ["https://your-frontend.vercel.app"]
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://voice-command-recognition-system.vercel.app"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
