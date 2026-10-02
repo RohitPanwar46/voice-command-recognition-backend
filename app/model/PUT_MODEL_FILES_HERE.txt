@@ -1,0 +1,4 @@
+Copy these 3 files from your training project into this folder:
+  - cnn_voice_command_model.keras
+  - classes.json
+  - feature_stats.json
